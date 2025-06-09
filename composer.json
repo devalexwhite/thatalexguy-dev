@@ -1,0 +1,12 @@
+{
+    "name": "alexwhite/portfolio",
+    "authors": [
+        {
+            "name": "Alex White",
+            "email": "alex.white@hey.com"
+        }
+    ],
+    "require": {
+        "spatie/browsershot": "^5.0"
+    }
+}

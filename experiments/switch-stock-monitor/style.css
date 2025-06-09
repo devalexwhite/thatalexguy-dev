@@ -1,0 +1,37 @@
+#switch-scraper {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+#switch-scraper thead {
+  font-weight: bold;
+}
+
+#switch-scraper td {
+  padding: 0.25rem;
+}
+
+#switch-scraper button {
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+#switch-scraper .htmx-indicator {
+  display: none;
+  background-color: aqua;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-size: 1.25rem;
+  color: black;
+}
+
+#switch-scraper .htmx-request + .htmx-indicator {
+  display: block;
+}
