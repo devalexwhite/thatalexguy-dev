@@ -32,7 +32,7 @@ foreach ($SITES_TO_MONITOR as $site)
         ->ignoreHttpsErrors()
         ->windowSize(400, 400)
         ->setChromePath('/usr/bin/chromium-browser')
-        ->useCookies(['meijer-store' => 104])
+        ->useCookies(['meijer-store' => '104'])
         ->userAgent('Mozilla/5.0 (Linux; Android 15) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.7151.62 Mobile Safari/537.36')
         ->bodyHtml();
 
