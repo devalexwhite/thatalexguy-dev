@@ -34,4 +34,5 @@
 
 #switch-scraper .htmx-request + .htmx-indicator {
   display: block;
+  opacity: 1;
 }
